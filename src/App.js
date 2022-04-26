@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import MovieDetail from "./components/MovieDetail/MovieDetail";
@@ -16,6 +17,7 @@ function App() {
           <Route path="#" element={<PageNotFound />}></Route>
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
